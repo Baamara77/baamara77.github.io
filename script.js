@@ -1,18 +1,19 @@
 const menuToggle = document.getElementById("menuToggle");
-const navLinks = document.getElementById("navLinks");
+const navContent = document.getElementById("navContent");
 
-if (menuToggle && navLinks) {
+if (menuToggle && navContent) {
   menuToggle.addEventListener("click", () => {
-    const isOpen = navLinks.classList.toggle("open");
-    menuToggle.setAttribute("aria-expanded", String(isOpen));
+    const opened = navContent.classList.toggle("open");
+    menuToggle.setAttribute("aria-expanded", String(opened));
   });
 
-  navLinks.querySelectorAll("a").forEach((link) => {
+  navContent.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => {
-      navLinks.classList.remove("open");
+      navContent.classList.remove("open");
       menuToggle.setAttribute("aria-expanded", "false");
     });
   });
 }
 
-document.getElementById("year").textContent = new Date().getFullYear();
+const year = document.getElementById("year");
+if (year) year.textContent = new Date().getFullYear();
