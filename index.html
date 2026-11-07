@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of a Computer Science student interested in software development, web technologies, and AI.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Slimane | Computer Science Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Home"><span class="brand-mark">O</span><span>SLIMANE<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="nav-contact">Contact <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE STUDENT <span class="eyebrow-line"></span> USTHB</div>
+        <h1>Curious mind.<br><span class="gradient-text">Building with code.</span></h1>
+        <p class="hero-intro">I'm a Computer Science student exploring web development, programming, and emerging technologies. I enjoy learning by building small projects and turning ideas into practical solutions.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="text-link" href="#contact">Get in touch <span>↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <div><span class="meta-label">CURRENT FOCUS</span><strong>Web Development · Python · AI</strong></div>
+          <div><span class="meta-label">BASED IN</span><strong>Algiers, Algeria</strong></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Decorative code illustration">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="hero-glow"></div>
+        <div class="code-card">
+          <div class="code-top"><div class="window-dots"><i></i><i></i><i></i></div><span>hello_world.py</span><span class="code-lock">●</span></div>
+          <div class="code-body">
+            <div><span class="line-no">01</span><span class="code-purple">class</span> <span class="code-green">Developer</span>:</div>
+            <div><span class="line-no">02</span>&nbsp;&nbsp;<span class="code-purple">def</span> <span class="code-yellow">learn</span>(self):</div>
+            <div><span class="line-no">03</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-purple">while</span> <span class="code-blue">True</span>:</div>
+            <div><span class="line-no">04</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;build()</div>
+            <div><span class="line-no">05</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;improve()</div>
+            <div><span class="line-no">06</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-purple">return</span> <span class="code-orange">"progress"</span></div>
+            <div class="code-cursor"></div>
+          </div>
+          <div class="code-bottom"><span><b></b> Learning in progress</span><span>UTF-8&nbsp;&nbsp; Python</span></div>
+        </div>
+        <div class="float-chip chip-html"><span class="chip-icon">&lt;/&gt;</span><span><b>HTML & CSS</b><small>Web foundations</small></span></div>
+        <div class="float-chip chip-python"><span class="python-icon">Py</span><span><b>Python</b><small>Learning by doing</small></span></div>
+        <div class="art-caption">IDEAS → CODE → EXPERIENCE</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section wrap about-section" id="about">
+      <div class="section-kicker">01 / ABOUT ME</div>
+      <div class="about-grid">
+        <div><h2>Always learning.<br><span class="muted-heading">Always exploring.</span></h2></div>
+        <div class="about-text">
+          <p>I'm an undergraduate Computer Science student at <strong>USTHB</strong> in Algiers. I'm building my foundations in programming and web technologies, while exploring how technology can solve real problems.</p>
+          <p>Beyond coding, I have experience with digital marketing, content creation, and design. I value collaboration, curiosity, and taking initiative—because the best way to grow is to keep creating and learning from others.</p>
+          <div class="about-tags"><span>Problem solving</span><span>Creativity</span><span>Teamwork</span><span>Continuous learning</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap skills-section" id="skills">
+      <div class="section-heading">
+        <div><div class="section-kicker">02 / TOOLKIT</div><h2>Skills & interests</h2></div>
+        <p>A growing toolkit, built through practice<br>and a willingness to explore.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-symbol">&lt;/&gt;</div><h3>Web Development</h3><p>Building and styling responsive web pages.</p><div class="skill-pills"><span>HTML</span><span>CSS</span></div></article>
+        <article class="skill-card"><div class="skill-symbol py-symbol">Py</div><h3>Programming</h3><p>Learning programming logic and problem solving.</p><div class="skill-pills"><span>Python</span><span>C</span></div></article>
+        <article class="skill-card"><div class="skill-symbol design-symbol">✳</div><h3>Creative & Digital</h3><p>Combining visual communication with digital tools.</p><div class="skill-pills"><span>Canva</span><span>Content</span><span>Marketing</span></div></article>
+        <article class="skill-card"><div class="skill-symbol ai-symbol">✧</div><h3>Exploring Next</h3><p>Areas I am motivated to learn and explore further.</p><div class="skill-pills"><span>Artificial Intelligence</span><span>JavaScript</span></div></article>
+      </div>
+      <p class="skills-note"><span>↗</span> Skills and interests are presented honestly according to my current learning stage.</p>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="wrap">
+        <div class="section-heading projects-heading">
+          <div><div class="section-kicker">03 / SELECTED WORK</div><h2>Things I've built<span class="gradient-text">.</span></h2></div>
+          <p>Small projects, real practice.<br>Each one is a step forward.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card project-featured">
+            <div class="project-visual visual-manager">
+              <div class="mock-window">
+                <div class="mock-bar"><span></span><span></span><span></span><b>project manager</b></div>
+                <div class="mock-content"><div class="mock-sidebar"><i></i><i></i><i></i><i></i></div><div class="mock-main"><small>YOUR WORKSPACE</small><b>Manage projects<br>with ease.</b><div class="mock-lines"><i></i><i></i><i></i></div><div class="mock-cards"><i></i><i></i><i></i></div></div></div>
+              </div>
+              <span class="visual-label">WEB / 01</span>
+            </div>
+            <div class="project-info"><div class="project-type">WEB DEVELOPMENT <span>01</span></div><h3>Project Manager</h3><p>A beginner front-end concept for a project management website, including a home page, login page, and sign-up page.</p><div class="project-stack"><span>HTML</span><span>CSS foundations</span></div><a class="project-link" href="projects/project-manager/source/index.html" target="_blank" rel="noopener">View project <span>↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-mastech">
+              <div class="mastech-window"><div class="mastech-top">M<span>.</span> DEV <small>CREATIVE DIGITAL STUDIO</small></div><div class="mastech-title">Build your<br><em>digital future.</em></div><div class="mastech-line"></div><div class="mastech-orb"></div><div class="mastech-foot">DESIGN · DEVELOPMENT · IDEAS</div></div>
+              <span class="visual-label">WEB / 02</span>
+            </div>
+            <div class="project-info"><div class="project-type">WEB DESIGN <span>02</span></div><h3>Mastech Dev</h3><p>A responsive project-management landing page featuring product sections, feature cards, workflow steps, and clear calls to action.</p><div class="project-stack"><span>HTML</span><span>CSS</span></div><a class="project-link" href="projects/mastech-dev/index.html" target="_blank" rel="noopener">View project <span>↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-python">
+              <div class="terminal-window"><div class="terminal-head"><span></span><span></span><span></span><b>hamadach.py</b></div><div class="terminal-code"><p><i>$</i> python hamadach.py</p><p class="terminal-muted">Choose your category:</p><p><strong>1</strong> - Student</p><p><strong>2</strong> - Employee</p><p><strong>3</strong> - Other</p><p class="terminal-success">Welcome, student! ✓</p><p class="terminal-cursor">_</p></div></div>
+              <span class="visual-label">PYTHON / 03</span>
+            </div>
+            <div class="project-info"><div class="project-type">PYTHON <span>03</span></div><h3>Hamadach</h3><p>A small command-line program that asks users to select a category and validates their input before displaying a response.</p><div class="project-stack"><span>Python</span><span>Loops</span><span>Conditionals</span></div><a class="project-link" href="projects/hamadach.py" download>View Python file <span>↓</span></a></div>
+          </article>
+        </div>
+        <div class="projects-footnote"><span class="footnote-mark">✳</span><span>These are learning projects. I am continuously improving them as I develop my skills.</span></div>
+      </div>
+    </section>
+
+    <section class="section wrap goals-section">
+      <div class="goals-panel">
+        <div class="section-kicker">04 / WHAT'S NEXT</div>
+        <div class="goals-content"><h2>Curiosity is my<br><span class="gradient-text">starting point.</span></h2><div><p>I'm currently focused on strengthening my programming fundamentals, improving my web development skills, and learning Python. I'm also eager to explore Artificial Intelligence and contribute to collaborative tech projects.</p><a class="text-link" href="#contact">Let's build something <span>↗</span></a></div></div>
+        <div class="goal-stamps"><span>LEARN</span><i>✳</i><span>BUILD</span><i>✳</i><span>CONTRIBUTE</span></div>
+      </div>
+    </section>
+
+    <section class="section wrap contact-section" id="contact">
+      <div class="section-kicker">05 / CONTACT</div>
+      <div class="contact-content"><h2>Have an idea?<br><span class="gradient-text">Let's connect.</span></h2><p>I'm open to learning opportunities, student activities, and collaborative projects.</p><a class="button button-primary" href="mailto:baamarahadjslimane77@gmail.com">Send me an email <span>↗</span></a></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner"><a class="brand" href="#home"><span class="brand-mark">O</span><span>SLIMANE<span class="brand-dot">.</span></span></a><p>Designed & built with curiosity.</p><span>© <span id="year"></span> · PERSONAL PORTFOLIO</span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
